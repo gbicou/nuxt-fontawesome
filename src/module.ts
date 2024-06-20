@@ -1,4 +1,4 @@
-import { defineNuxtModule, addPlugin, createResolver, addComponent, resolvePath } from '@nuxt/kit'
+import { defineNuxtModule, addPlugin, createResolver, addComponent } from '@nuxt/kit'
 import { name as packageName } from '../package.json'
 
 // Module options TypeScript interface definition
@@ -11,7 +11,7 @@ export default defineNuxtModule<ModuleOptions>({
   },
   // Default configuration options of the Nuxt module
   defaults: {},
-  async setup(_options, _nuxt) {
+  setup(_options, _nuxt) {
     const resolver = createResolver(import.meta.url)
 
     // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
@@ -26,8 +26,7 @@ export default defineNuxtModule<ModuleOptions>({
       })
 
     // Add css from fontawesome svg
-    const faStyles = await resolvePath('@fortawesome/fontawesome-svg-core/styles.css')
-    _nuxt.options.css.push(faStyles)
+    _nuxt.options.css.push('@fortawesome/fontawesome-svg-core/styles.css')
   },
   hooks: {
     'prepare:types': (ctx) => {
