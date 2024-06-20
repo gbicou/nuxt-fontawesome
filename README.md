@@ -23,8 +23,26 @@ Install the module to your Nuxt application with one command:
 npx nuxi module add @bicou/nuxt-fontawesome
 ```
 
-That's it! You can now use FontAwesome in your Nuxt app ✨
+Install icon packages:
 
+```bash
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/free-regular-svg-icons
+npm install --save @fortawesome/free-brands-svg-icons
+```
+
+You can now use the `font-awesome-icon` component in your nuxt pages:
+
+```vue
+<template>
+  <font-awesome-icon :icon="faMusic" />
+</template>
+
+<script setup lang="ts">
+import { faMusic } from '@fortawesome/free-solid-svg-icons/faMusic'
+</script>
+
+```
 
 ## Contribution
 
