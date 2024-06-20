@@ -5,18 +5,15 @@
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-Minimal FontAwesome Nuxt module for doing amazing things.
+Minimal FontAwesome Nuxt module.
 
-- [✨ &nbsp;Release Notes](/CHANGELOG.md)
-<!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/@bicou/nuxt-fontawesome?file=playground%2Fapp.vue) -->
-<!-- - [📖 &nbsp;Documentation](https://example.com) -->
+- [✨ Release Notes](/CHANGELOG.md)
+- [🏀 Online playground](https://stackblitz.com/github/gbicou/nuxt-fontawesome?file=playground%2Fapp.vue)
 
 ## Features
 
-<!-- Highlight some of the features your module provide here -->
-- ⛰ &nbsp;Foo
-- 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- Adds components from vue-fontawesome (vue 3.x)
+- Let nuxt handle css from fontawesome svg
 
 ## Quick Setup
 
