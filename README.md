@@ -23,6 +23,13 @@ Install the module to your Nuxt application with one command:
 npx nuxi module add @bicou/nuxt-fontawesome
 ```
 
+You may have to install more dependencies if you face resolving errors:
+
+```bash
+npm install --save @fortawesome/vue-fontawesome
+npm install --save @fortawesome/fontawesome-svg-core
+```
+
 Install icon packages:
 
 ```bash
