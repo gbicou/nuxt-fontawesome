@@ -1,5 +1,13 @@
 # @bicou/nuxt-fontawesome
 
+## 1.0.2
+
+### Patch Changes
+
+- [`58949a0`](https://github.com/gbicou/nuxt-fontawesome/commit/58949a0d59a572988306e80d6f11876ea2d1699b) Thanks [@gbicou](https://github.com/gbicou)! - resolve fontawesome css path
+
+- [`80c1cc5`](https://github.com/gbicou/nuxt-fontawesome/commit/80c1cc579a3d95f105762f93ac350d43fd4ca348) Thanks [@gbicou](https://github.com/gbicou)! - revert path resolving
+
 ## 1.0.1
 
 ### Patch Changes
