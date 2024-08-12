@@ -1,10 +1,7 @@
 import { defineNuxtModule, addPlugin, createResolver, addComponent } from '@nuxt/kit'
 import { name as packageName } from '../package.json'
 
-// Module options TypeScript interface definition
-export interface ModuleOptions {}
-
-export default defineNuxtModule<ModuleOptions>({
+export default defineNuxtModule({
   meta: {
     name: packageName,
     configKey: 'fontawesome',
