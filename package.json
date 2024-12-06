@@ -47,7 +47,7 @@
     "@nuxt/module-builder": "^0.8.4",
     "@nuxt/schema": "^3.14.159",
     "@nuxt/test-utils": "^3.14.4",
-    "@types/node": "^20.17.6",
+    "@types/node": "^22.0.0",
     "@vue/test-utils": "^2.4.6",
     "eslint": "^9.15.0",
     "happy-dom": "^15.11.6",
