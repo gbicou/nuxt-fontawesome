@@ -34,27 +34,27 @@
     "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.7.1",
-    "@fortawesome/vue-fontawesome": "^3.0.8",
-    "@nuxt/kit": "^3.14.1592"
+    "@fortawesome/fontawesome-svg-core": "6.7.1",
+    "@fortawesome/vue-fontawesome": "3.0.8",
+    "@nuxt/kit": "3.14.1592"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "^0.5.0",
-    "@changesets/cli": "^2.27.10",
-    "@fortawesome/free-solid-svg-icons": "^6.7.1",
-    "@nuxt/devtools": "^1.6.3",
-    "@nuxt/eslint-config": "^0.7.2",
-    "@nuxt/module-builder": "^0.8.4",
-    "@nuxt/schema": "^3.14.1592",
-    "@nuxt/test-utils": "^3.15.1",
-    "@types/node": "^20.17.9",
-    "@vue/test-utils": "^2.4.6",
-    "eslint": "^9.16.0",
-    "happy-dom": "^15.11.7",
-    "nuxt": "^3.14.1592",
-    "typescript": "~5.6.3",
-    "vitest": "^2.1.8",
-    "vue-tsc": "^2.1.10"
+    "@changesets/changelog-github": "0.5.0",
+    "@changesets/cli": "2.27.10",
+    "@fortawesome/free-solid-svg-icons": "6.7.1",
+    "@nuxt/devtools": "1.6.3",
+    "@nuxt/eslint-config": "0.7.2",
+    "@nuxt/module-builder": "0.8.4",
+    "@nuxt/schema": "3.14.1592",
+    "@nuxt/test-utils": "3.15.1",
+    "@types/node": "20.17.9",
+    "@vue/test-utils": "2.4.6",
+    "eslint": "9.16.0",
+    "happy-dom": "15.11.7",
+    "nuxt": "3.14.1592",
+    "typescript": "5.6.3",
+    "vitest": "2.1.8",
+    "vue-tsc": "2.1.10"
   },
   "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c",
   "publishConfig": {
