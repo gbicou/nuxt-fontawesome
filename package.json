@@ -27,7 +27,6 @@
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
-    "release": "changeset publish",
     "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest watch",
@@ -39,8 +38,6 @@
     "@nuxt/kit": "3.15.4"
   },
   "devDependencies": {
-    "@changesets/changelog-github": "0.5.1",
-    "@changesets/cli": "2.28.1",
     "@fortawesome/free-solid-svg-icons": "6.7.2",
     "@nuxt/devtools": "2.2.1",
     "@nuxt/eslint-config": "1.2.0",
