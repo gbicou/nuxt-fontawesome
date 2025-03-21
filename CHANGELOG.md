@@ -1,5 +1,21 @@
 # @bicou/nuxt-fontawesome
 
+## [2.0.0](https://github.com/gbicou/nuxt-fontawesome/compare/nuxt-fontawesome-v1.0.3...nuxt-fontawesome-v2.0.0) (2025-03-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* Upgrade module builder and typescript
+
+### Bug Fixes
+
+* **deps:** update nuxtjs monorepo to v3.16.1 ([#213](https://github.com/gbicou/nuxt-fontawesome/issues/213)) ([0bbce81](https://github.com/gbicou/nuxt-fontawesome/commit/0bbce811438a70f380370bab98ef9eb6c231f929))
+
+
+### Miscellaneous Chores
+
+* Upgrade module builder and typescript ([0eb1e11](https://github.com/gbicou/nuxt-fontawesome/commit/0eb1e11fdb91e92da01ee9982b2cef0963c4fbe3))
+
 ## [1.0.3](https://github.com/gbicou/nuxt-fontawesome/compare/nuxt-fontawesome-v1.0.2...nuxt-fontawesome-v1.0.3) (2025-03-09)
 
 
