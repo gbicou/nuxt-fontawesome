@@ -10,14 +10,10 @@
   "license": "MIT",
   "type": "module",
   "exports": {
-    ".": {
-      "types": "./dist/types.d.ts",
-      "import": "./dist/module.mjs",
-      "require": "./dist/module.cjs"
-    }
+    ".": "./dist/module.mjs"
   },
-  "main": "./dist/module.cjs",
-  "types": "./dist/types.d.ts",
+  "main": "./dist/module.mjs",
+  "types": "./dist/module.d.mts",
   "files": [
     "dist"
   ],
@@ -41,7 +37,7 @@
     "@fortawesome/free-solid-svg-icons": "6.7.2",
     "@nuxt/devtools": "2.3.1",
     "@nuxt/eslint-config": "1.2.0",
-    "@nuxt/module-builder": "0.8.4",
+    "@nuxt/module-builder": "1.0.0-alpha.1",
     "@nuxt/schema": "3.16.1",
     "@nuxt/test-utils": "3.17.2",
     "@types/node": "22.13.11",
@@ -49,7 +45,7 @@
     "eslint": "9.22.0",
     "happy-dom": "17.4.4",
     "nuxt": "3.16.1",
-    "typescript": "5.6.3",
+    "typescript": "5.8.2",
     "vitest": "3.0.9",
     "vue-tsc": "2.2.8"
   },
