@@ -1,5 +1,12 @@
 # @bicou/nuxt-fontawesome
 
+## [2.0.1](https://github.com/gbicou/nuxt-fontawesome/compare/nuxt-fontawesome-v2.0.0...nuxt-fontawesome-v2.0.1) (2025-04-22)
+
+
+### Bug Fixes
+
+* **deps:** update nuxtjs monorepo to v3.16.2 ([#229](https://github.com/gbicou/nuxt-fontawesome/issues/229)) ([1dd6516](https://github.com/gbicou/nuxt-fontawesome/commit/1dd6516ebd2925e234153d6a8b826b310cab5667))
+
 ## [2.0.0](https://github.com/gbicou/nuxt-fontawesome/compare/nuxt-fontawesome-v1.0.3...nuxt-fontawesome-v2.0.0) (2025-03-21)
 
 
