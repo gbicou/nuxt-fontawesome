@@ -2,7 +2,7 @@
 import { it, expect } from 'vitest'
 
 import { mountSuspended } from '@nuxt/test-utils/runtime'
-import { faMusic } from '@fortawesome/free-solid-svg-icons/faMusic'
+import { faMusic, svgPathData } from '@fortawesome/free-solid-svg-icons/faMusic'
 import { FontAwesomeIcon } from '#components'
 
 it('render the component', async () => {
@@ -11,5 +11,5 @@ it('render the component', async () => {
   // Check if the fontawesome icon is rendered with svg
   expect(component.html()).toContain('<svg')
   expect(component.html()).toContain('data-icon="music"')
-  expect(component.html()).toContain('d="M499.1')
+  expect(component.html()).toContain(`d="${svgPathData}`)
 })
