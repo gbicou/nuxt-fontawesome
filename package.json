@@ -29,12 +29,12 @@
     "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "6.7.2",
+    "@fortawesome/fontawesome-svg-core": "7.1.0",
     "@fortawesome/vue-fontawesome": "3.1.2",
     "@nuxt/kit": "4.2.0"
   },
   "devDependencies": {
-    "@fortawesome/free-solid-svg-icons": "6.7.2",
+    "@fortawesome/free-solid-svg-icons": "7.1.0",
     "@nuxt/devtools": "3.0.1",
     "@nuxt/eslint-config": "1.10.0",
     "@nuxt/module-builder": "1.0.2",
