@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.7](https://github.com/gbicou/nuxt-fontawesome/compare/nuxt-fontawesome-playground-v0.0.6...nuxt-fontawesome-playground-v0.0.7) (2025-11-28)
+
+
+### Bug Fixes
+
+* **deps:** update nuxtjs monorepo to v4.2.1 ([#395](https://github.com/gbicou/nuxt-fontawesome/issues/395)) ([e42c1d0](https://github.com/gbicou/nuxt-fontawesome/commit/e42c1d031c80938e74a901755a0069d2867875e9))
+
 ## [0.0.6](https://github.com/gbicou/nuxt-fontawesome/compare/nuxt-fontawesome-playground-v0.0.5...nuxt-fontawesome-playground-v0.0.6) (2025-11-04)
 
 
