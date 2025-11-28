@@ -4,17 +4,15 @@ on:
   release:
     types:
       - published
+permissions:
+  contents: read
+  id-token: write
 
 jobs:
   publish:
     if: ${{ !startsWith(github.ref, 'refs/tags/nuxt-fontawesome-playground-') }}
     name: Publish
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      id-token: write
-    env:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v5
