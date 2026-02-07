@@ -39,7 +39,7 @@
     "@nuxt/eslint-config": "1.14.0",
     "@nuxt/module-builder": "1.0.2",
     "@nuxt/schema": "4.3.0",
-    "@nuxt/test-utils": "3.23.0",
+    "@nuxt/test-utils": "4.0.0",
     "@types/node": "24.10.11",
     "@vue/test-utils": "2.4.6",
     "eslint": "9.39.2",
