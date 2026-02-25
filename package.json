@@ -1,6 +1,6 @@
 {
   "name": "@bicou/nuxt-fontawesome",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Minimal FontAwesome module for Nuxt 3",
   "author": "Benjamin VIELLARD <bicou@bicou.com>",
   "repository": {
