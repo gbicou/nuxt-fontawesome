@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@fortawesome/free-solid-svg-icons": "7.2.0",
-    "@nuxt/devtools": "3.2.3",
+    "@nuxt/devtools": "3.2.4",
     "@nuxt/eslint-config": "1.15.2",
     "@nuxt/module-builder": "1.0.2",
     "@nuxt/schema": "4.4.2",
