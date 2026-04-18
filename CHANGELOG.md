@@ -1,5 +1,12 @@
 # @bicou/nuxt-fontawesome
 
+## [2.0.7](https://github.com/gbicou/nuxt-fontawesome/compare/nuxt-fontawesome-v2.0.6...nuxt-fontawesome-v2.0.7) (2026-04-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @fortawesome/vue-fontawesome to v3.2.0 ([#520](https://github.com/gbicou/nuxt-fontawesome/issues/520)) ([0b3478f](https://github.com/gbicou/nuxt-fontawesome/commit/0b3478f0500c99a2715da369559375464123d0be))
+
 ## [2.0.6](https://github.com/gbicou/nuxt-fontawesome/compare/nuxt-fontawesome-v2.0.5...nuxt-fontawesome-v2.0.6) (2026-03-15)
 
 
