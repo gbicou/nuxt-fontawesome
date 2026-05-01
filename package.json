@@ -42,7 +42,7 @@
     "@nuxt/test-utils": "4.0.3",
     "@types/node": "24.12.2",
     "@vue/test-utils": "2.4.10",
-    "eslint": "10.2.1",
+    "eslint": "10.3.0",
     "happy-dom": "20.9.0",
     "nuxt": "4.4.2",
     "typescript": "5.9.3",
