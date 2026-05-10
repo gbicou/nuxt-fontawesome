@@ -31,20 +31,20 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "7.2.0",
     "@fortawesome/vue-fontawesome": "3.2.0",
-    "@nuxt/kit": "4.4.2"
+    "@nuxt/kit": "4.4.4"
   },
   "devDependencies": {
     "@fortawesome/free-solid-svg-icons": "7.2.0",
     "@nuxt/devtools": "3.2.4",
     "@nuxt/eslint-config": "1.15.2",
     "@nuxt/module-builder": "1.0.2",
-    "@nuxt/schema": "4.4.2",
+    "@nuxt/schema": "4.4.4",
     "@nuxt/test-utils": "4.0.3",
     "@types/node": "24.12.3",
     "@vue/test-utils": "2.4.10",
     "eslint": "10.3.0",
     "happy-dom": "20.9.0",
-    "nuxt": "4.4.2",
+    "nuxt": "4.4.4",
     "typescript": "5.9.3",
     "vitest": "4.1.5",
     "vue-tsc": "3.2.8"
